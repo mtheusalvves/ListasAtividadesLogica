@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mathe\\source\\repos\\mtheusalvves\\ProjectUC9\\source\\repos\\ProjectUC9-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF136A64-9460-4402-BC80-B22154374EC3}|ProjetoConsole.csproj|c:\\users\\mathe\\source\\repos\\mtheusalvves\\projectuc9\\source\\repos\\projectuc9-master\\lista2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF136A64-9460-4402-BC80-B22154374EC3}|ProjetoConsole.csproj|solutionrelative:lista2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF136A64-9460-4402-BC80-B22154374EC3}|ProjetoConsole.csproj|C:\\Users\\Mathe\\source\\repos\\mtheusalvves\\ProjectUC9\\source\\repos\\ProjectUC9-master\\lista1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF136A64-9460-4402-BC80-B22154374EC3}|ProjetoConsole.csproj|solutionrelative:lista1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF136A64-9460-4402-BC80-B22154374EC3}|ProjetoConsole.csproj|C:\\Users\\Mathe\\source\\repos\\mtheusalvves\\ProjectUC9\\source\\repos\\ProjectUC9-master\\lista4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF136A64-9460-4402-BC80-B22154374EC3}|ProjetoConsole.csproj|solutionrelative:lista4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF136A64-9460-4402-BC80-B22154374EC3}|ProjetoConsole.csproj|C:\\Users\\Mathe\\source\\repos\\mtheusalvves\\ProjectUC9\\source\\repos\\ProjectUC9-master\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF136A64-9460-4402-BC80-B22154374EC3}|ProjetoConsole.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF136A64-9460-4402-BC80-B22154374EC3}|ProjetoConsole.csproj|C:\\Users\\Mathe\\source\\repos\\mtheusalvves\\ProjectUC9\\source\\repos\\ProjectUC9-master\\lista3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF136A64-9460-4402-BC80-B22154374EC3}|ProjetoConsole.csproj|solutionrelative:lista3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lista1.cs",
+              "DocumentMoniker": "C:\\Users\\Mathe\\source\\repos\\mtheusalvves\\ProjectUC9\\source\\repos\\ProjectUC9-master\\Lista1.cs",
+              "RelativeDocumentMoniker": "Lista1.cs",
+              "ToolTip": "C:\\Users\\Mathe\\source\\repos\\mtheusalvves\\ProjectUC9\\source\\repos\\ProjectUC9-master\\Lista1.cs",
+              "RelativeToolTip": "Lista1.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAowBAAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T13:22:20.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lista2.cs",
+              "DocumentMoniker": "C:\\Users\\Mathe\\source\\repos\\mtheusalvves\\ProjectUC9\\source\\repos\\ProjectUC9-master\\Lista2.cs",
+              "RelativeDocumentMoniker": "Lista2.cs",
+              "ToolTip": "C:\\Users\\Mathe\\source\\repos\\mtheusalvves\\ProjectUC9\\source\\repos\\ProjectUC9-master\\Lista2.cs",
+              "RelativeToolTip": "Lista2.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAIwH4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T13:22:20.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lista3.cs",
+              "DocumentMoniker": "C:\\Users\\Mathe\\source\\repos\\mtheusalvves\\ProjectUC9\\source\\repos\\ProjectUC9-master\\Lista3.cs",
+              "RelativeDocumentMoniker": "Lista3.cs",
+              "ToolTip": "C:\\Users\\Mathe\\source\\repos\\mtheusalvves\\ProjectUC9\\source\\repos\\ProjectUC9-master\\Lista3.cs",
+              "RelativeToolTip": "Lista3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T13:22:20.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lista4.cs",
+              "DocumentMoniker": "C:\\Users\\Mathe\\source\\repos\\mtheusalvves\\ProjectUC9\\source\\repos\\ProjectUC9-master\\Lista4.cs",
+              "RelativeDocumentMoniker": "Lista4.cs",
+              "ToolTip": "C:\\Users\\Mathe\\source\\repos\\mtheusalvves\\ProjectUC9\\source\\repos\\ProjectUC9-master\\Lista4.cs",
+              "RelativeToolTip": "Lista4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T13:22:20.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mathe\\source\\repos\\mtheusalvves\\ProjectUC9\\source\\repos\\ProjectUC9-master\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Mathe\\source\\repos\\mtheusalvves\\ProjectUC9\\source\\repos\\ProjectUC9-master\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T13:22:20.366Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
