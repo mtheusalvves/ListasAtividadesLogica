@@ -10,17 +10,25 @@ namespace ProjetoConsole
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.BackgroundColor = ConsoleColor.DarkYellow;
             Console.Clear();
             string escolha;
             do
             {
+             
                 Console.WriteLine("Digite o número da lista (0 para sair) ");
+
+
+                
                 escolha = Console.ReadLine();
+
+    
 
                 switch (escolha)
 
                 {
-                    //teste github
+                    
 
                     case "1":
                         Console.WriteLine("-------------Lista 1-------------");

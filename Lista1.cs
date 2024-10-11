@@ -14,7 +14,7 @@ namespace ProjetoConsole
             string escolha;
             do
             {
-                Console.WriteLine("Digite o número do exercício");
+                Console.Write("Digite o número do exercício: ");
                 escolha = Console.ReadLine();
                 Console.Clear();
                 Console.WriteLine("Exercicio " +  escolha + "\n");
