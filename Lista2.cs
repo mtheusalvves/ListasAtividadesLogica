@@ -75,32 +75,139 @@ namespace ProjetoConsole
 
         private static void exercicio11()
         {
-            throw new NotImplementedException();
+            Console.Write("Digite a hora de inicio do jogo (0 a 23): ");
+            int horaInicio = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Digite a hora do fim do jogo (0 a 23): ");
+            int horaFim = Convert.ToInt32(Console.ReadLine());
+
+            int duracao;
+            if(horaFim >= horaInicio) 
+            {
+                duracao = horaFim - horaInicio;
+            }
+            else 
+            {
+                duracao = (24 - horaInicio) + horaFim;
+            }
+
+            int horasMaxima = 24;
+            int horasRestantes = horasMaxima - duracao;
+
+            Console.WriteLine($"Duração do jogo:  {duracao} horas");
+
+            if(horasRestantes > 0)
+            {
+                Console.WriteLine($"Horas restantes: {horasRestantes} horas");
+            }
+            else if (horasRestantes < 0)
+            {
+                Console.WriteLine($"Horas excedentes: {-horasRestantes} horas");        
+            }
+            else
+            {
+                Console.WriteLine(" O jogo durou exatamente 24 horas. ");
+            }
         }
 
         private static void exercicio10()
         {
-            throw new NotImplementedException();
+            Console.Write("Digite o primeiro valor: ");
+            int valor1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Digite o segundo valor: ");
+            int valor2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Digite o terceiro valor: ");
+            int valor3 = Convert.ToInt32(Console.ReadLine());
+
+            int[] valores = { valor1, valor2, valor3 };
+
+            Array.Reverse(valores);
+            Array.Sort(valores);
+            
+
+            Console.WriteLine("Valores do menor para o maior: ");
+            foreach (int valor in valores)
+            {
+                Console.WriteLine(valor);
+            }
         }
 
         private static void exercicio9()
         {
-            throw new NotImplementedException();
+            Console.Write("Digite o primeiro valor: ");
+            int valor1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Digite o segundo valor: ");
+            int valor2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Digite o terceiro valor: ");
+            int valor3 = Convert.ToInt32(Console.ReadLine());
+
+            int[] valores = { valor1, valor2, valor3 };
+
+            Array.Sort(valores);
+            Array.Reverse(valores);
+
+            Console.WriteLine("Valores do maior para o menor: ");
+            foreach (int valor in valores)
+            {
+                Console.WriteLine(valor);
+            }
         }
 
         private static void exercicio8()
         {
-            throw new NotImplementedException();
+            Console.Write("Digite um número: ");
+            double numero = Convert.ToDouble(Console.ReadLine());
+            if (numero > 0)
+            {
+                double dobro = numero * 2;
+                Console.WriteLine("O dobro do número é: " + dobro);
+            }
+            else if(numero<0) 
+            {
+                double triplo = numero * 3;
+                Console.WriteLine("O triplo do número é: " + triplo);
+            }
+            else {
+                Console.WriteLine("O número é zero."); }
         }
 
         private static void exercicio7()
         {
-            throw new NotImplementedException();
+            Console.Write("Digite o valor de A: ");
+            int A = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Digite o valor de B: ");
+            int B = Convert.ToInt32(Console.ReadLine());
+
+            if(A == B)
+            {
+                int soma = A + B;
+                Console.WriteLine("Os valores são iguais. A soma é: "+ soma);
+            }
+            else 
+            {
+                int multiplicacao = A * B;
+                Console.WriteLine("Os valores são diferentes. A multiplicação é: " + multiplicacao);
+            }
         }
 
         private static void exercicio6()
         {
-            throw new NotImplementedException();
+            Console.Write("Digite um número: ");
+            int numero = Convert.ToInt32(Console.ReadLine());
+
+            if(numero % 2 == 0)
+            {
+                Console.WriteLine($"O número  é par. ");
+            }
+            else 
+            {
+                Console.WriteLine($"O número é impar. ");
+            }
         }
 
         private static void exercicio5()
@@ -169,10 +276,10 @@ namespace ProjetoConsole
 
         private static void exercicio2()
         {
-            Console.WriteLine("Digite um valor: ");
+            Console.Write("Digite um valor: ");
             int valor = Convert.ToInt32(Console.ReadLine());
 
-            if (valor > 10)
+            if (valor >= 10)
             {
                 Console.WriteLine("É MAIOR QUE 10");
             }

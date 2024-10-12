@@ -62,15 +62,36 @@ namespace ProjetoConsole
 
         private static void exercicio6()
         {
-            throw new NotImplementedException();
+            Console.Write("Digite um número para ver a tabuada: ");
+            int numero = Convert.ToInt32(Console.ReadLine());
+
+
+            Console.WriteLine($"Tabuada de {numero}: ");
+            for (int i = 1; i <= 10; i++)
+            {
+                int resultado = numero * i;
+                Console.WriteLine($"{numero} x {i} = {resultado}");
+            }
         }
 
         private static void exercicio5()
         {
-            throw new NotImplementedException();
-        }
+            int soma = 0;
 
-        private static void exercicio4()
+            
+            for (int i = 1; i <= 5000; i++)
+            {
+                
+                if (i % 2 != 0)
+                {
+                    soma += i;
+                }
+            }
+            Console.WriteLine("A soma dos números ímpares de 1 até 5000 é:" + soma);
+        }
+    
+
+    private static void exercicio4()
         {
             int contadorPares = 0;
 
