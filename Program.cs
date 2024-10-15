@@ -10,8 +10,8 @@ namespace ProjetoConsole
     {
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Black;
-            Console.BackgroundColor = ConsoleColor.DarkYellow;
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.BackgroundColor = ConsoleColor.White;
             Console.Clear();
             string escolha;
             do
