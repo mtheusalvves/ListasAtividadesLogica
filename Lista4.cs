@@ -72,17 +72,55 @@ namespace ProjetoConsole
 
         private static void exercicio10()
         {
-            throw new NotImplementedException();
+            Console.Write("Informe um ano: ");
+
+            if (int.TryParse(Console.ReadLine(), out int ano))
+            {
+                bool bissexto = (ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0);
+
+                Console.WriteLine(bissexto ? "O ano é bissexto." : "O ano não é bissexto.");
+            }
+            else
+            {
+                Console.WriteLine("Entrada inválida. Por favor, insira um número inteiro.");
+            }
         }
 
         private static void exercicio9()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Informe três números:");
+
+            Console.Write("Número 1: ");
+            double num1 = double.Parse(Console.ReadLine());
+
+            Console.Write("Número 2: ");
+            double num2 = double.Parse(Console.ReadLine());
+
+            Console.Write("Número 3: ");
+            double num3 = double.Parse(Console.ReadLine());
+
+            double media = (num1 + num2 + num3) / 3;
+
+            string resultado = media > 7 ? "Aprovado" : "Reprovado";
+
+            Console.WriteLine($"Média: {media:F2} - {resultado}");
         }
 
         private static void exercicio8()
         {
-            throw new NotImplementedException();
+            Console.Write("Informe a temperatura em graus Celsius: ");
+
+            if (double.TryParse(Console.ReadLine(), out double temperatura))
+            {
+                string classificacao = temperatura < 15 ? "Frio" :
+                                       temperatura <= 25 ? "Agradável" : "Quente";
+
+                Console.WriteLine($"A temperatura está: {classificacao}");
+            }
+            else
+            {
+                Console.WriteLine("Entrada inválida. Por favor, insira um número.");
+            }
         }
 
         private static void exercicio7()
