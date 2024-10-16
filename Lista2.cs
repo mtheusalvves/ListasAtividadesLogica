@@ -21,50 +21,71 @@ namespace ProjetoConsole
                     switch (escolha)
                     {
 
-                        case "1":
-                            exercicio1();
-                            break;
-
-                        case "2":
-
-                            exercicio2();
-                            break;
-                        case "3":
-
-                            exercicio3();
-                            break;
-                        case "4":
-
-                            exercicio4();
-                            break;
-                        case "5":
-
-                            exercicio5();
-                            break;
-                        case "6":
-
-                            exercicio6();
-                            break;
-                        case "7":
-
-                            exercicio7();
-                            break;
-                        case "8":
-
-                            exercicio8();
-                            break;
-                        case "9":
-
-                            exercicio9();
-                            break;
-                        case "10":
-
-                            exercicio10();
-                            break;
-                        case "11":
-                            exercicio11();
+                    case "1":
+                        // 1. Escreva um algoritmo que leia um número e o imprima caso ele seja maior que 20.
+                        exercicio1();
                         break;
-                    }
+
+                    case "2":
+                        // 2. Ler um valor e escrever a mensagem É MAIOR QUE 10! se o valor lido for maior que 10, 
+                        // caso contrário escrever NÃO É MAIOR QUE 10!
+                        exercicio2();
+                        break;
+
+                    case "3":
+                        // 3. Faça um algoritmo que leia os valores A, B, C e imprima na tela se a soma de A + B é menor que C.
+                        exercicio3();
+                        break;
+
+                    case "4":
+                        // 4. Construa um algoritmo que leia dois valores numéricos inteiros e efetue a adição; 
+                        // caso o resultado seja maior que 10, apresentá-lo.
+                        exercicio4();
+                        break;
+
+                    case "5":
+                        // 5. Faça um algoritmo que leia o nome, o sexo e o estado civil de uma pessoa. 
+                        // Caso sexo seja “F” e estado civil seja “CASADA”, solicitar o tempo de casada (anos).
+                        exercicio5();
+                        break;
+
+                    case "6":
+                        // 6. Faça um algoritmo para receber um número qualquer e informar na tela se é par ou ímpar.
+                        exercicio6();
+                        break;
+
+                    case "7":
+                        // 7. Faça um algoritmo que leia dois valores inteiros A e B; se os valores forem iguais, 
+                        // deverá se somar os dois; caso contrário, multiplique A por B. 
+                        // Ao final de qualquer um dos cálculos, deve-se atribuir o resultado para uma variável C 
+                        // e mostrar seu conteúdo na tela.
+                        exercicio7();
+                        break;
+
+                    case "8":
+                        // 8. Encontrar o dobro de um número caso ele seja positivo e o seu triplo caso seja negativo, 
+                        // imprimindo o resultado.
+                        exercicio8();
+                        break;
+
+                    case "9":
+                        // 9. Faça um algoritmo que leia 3 valores e retorne do maior para o menor ordenados.
+                        exercicio9();
+                        break;
+
+                    case "10":
+                        // 10. Faça um algoritmo que leia 3 valores e retorne do menor para o maior ordenados.
+                        exercicio10();
+                        break;
+
+                    case "11":
+                        // 11. Ler a hora de início e a hora de fim de um jogo de Xadrez (considere apenas horas inteiras, sem os minutos) 
+                        // e calcule a duração do jogo em horas, sabendo-se que o tempo máximo de duração do jogo é de 24 horas 
+                        // e que o jogo pode iniciar em um dia e terminar no dia seguinte. 
+                        // Retornar quantas horas estão jogando e a quantidade de horas restante ou quantidade de horas excedente.
+                        exercicio11();
+                        break;
+                }
 
                     Console.ReadKey();
                     Console.Clear();

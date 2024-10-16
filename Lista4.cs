@@ -22,43 +22,63 @@ namespace ProjetoConsole
                 {
 
                     case "1":
+                        // 1. Verificação de Número Par ou Ímpar:
+                        // Escreva um programa que solicite um número ao usuário e verifique se ele é par ou ímpar.
                         exercicio1();
                         break;
 
                     case "2":
-
+                        // 2. Classificação de Idade:
+                        // Peça ao usuário para inserir sua idade e classifique-o como "Criança" (0-12), "Adolescente" (13-17), "Adulto" (18-64), ou "Idoso" (65+).
                         exercicio2();
                         break;
-                    case "3":
 
+                    case "3":
+                        // 3. Verificação de Notas:
+                        // Crie um programa que receba uma nota (0 a 10) e exiba se o aluno foi "Aprovado" (nota maior ou igual a 6), "Recuperação" (nota entre 4 e 5.9) ou "Reprovado" (nota menor que 4).
                         exercicio3();
                         break;
-                    case "4":
 
+                    case "4":
+                        // 4. Cálculo de IMC:
+                        // Peça ao usuário para informar seu peso e altura e, em seguida, calcule o Índice de Massa Corporal (IMC) e determine sua categoria: "Abaixo do peso", "Peso normal", "Sobrepeso" ou "Obesidade".
                         exercicio4();
                         break;
-                    case "5":
 
+                    case "5":
+                        // 5. Maior de Dois Números:
+                        // Escreva um programa que receba dois números do usuário e exiba qual é o maior, ou informe se os números são iguais.
                         exercicio5();
                         break;
-                    case "6":
 
+                    case "6":
+                        // 6. Verificação de Voto:
+                        // Peça ao usuário sua idade e informe se ele é obrigado a votar (18-70 anos), voto facultativo (16-17 ou acima de 70), ou se não pode votar (abaixo de 16 anos).
                         exercicio6();
                         break;
-                    case "7":
 
+                    case "7":
+                        // 7. Cálculo de Desconto:
+                        // Crie um programa que receba o valor de uma compra e aplique um desconto de 10% caso o valor seja superior a R$100.
                         exercicio7();
                         break;
-                    case "8":
 
+                    case "8":
+                        // 8. Classificação de Temperatura:
+                        // Peça ao usuário para informar a temperatura em graus Celsius e classifique se está "Frio" (abaixo de 15°C), "Agradável" (15-25°C), ou "Quente" (acima de 25°C).
                         exercicio8();
                         break;
-                    case "9":
 
+                    case "9":
+                        // 9. Cálculo de Média de Três Números:
+                        // Solicite três números ao usuário e calcule a média. 
+                        // Caso a média seja maior que 7, exiba "Aprovado", senão exiba "Reprovado".
                         exercicio9();
                         break;
-                    case "10":
 
+                    case "10":
+                        // 10. Verificação de Ano Bissexto:
+                        // Peça ao usuário que insira um ano e verifique se ele é bissexto (divisível por 4 e não divisível por 100, exceto se for divisível por 400).
                         exercicio10();
                         break;
                 }
@@ -128,11 +148,11 @@ namespace ProjetoConsole
             Console.Write("Digite o valor da comprar: R$");
             string valorInput = Console.ReadLine();
 
-            if(decimal .TryParse(valorInput,out decimal valorCompra))
+            if (decimal.TryParse(valorInput, out decimal valorCompra))
             {
-                if(valorCompra > 100)
+                if (valorCompra > 100)
                 {
-                    decimal  desconto = valorCompra * 0.10m;
+                    decimal desconto = valorCompra * 0.10m;
                     valorCompra -= desconto;
                     Console.WriteLine($"Desconto aplicado: R$ {desconto:F2}");
                 }
@@ -146,17 +166,17 @@ namespace ProjetoConsole
             Console.Write("Digite sua idade: ");
             string idadeInput = Console.ReadLine();
 
-            if(int .TryParse(idadeInput, out int idade))
+            if (int.TryParse(idadeInput, out int idade))
             {
-                if(idade < 16)
+                if (idade < 16)
                 {
                     Console.WriteLine("Você não pode votar.");
                 }
-                else if (idade >=  16  &&  idade < 18 || idade > 70)
+                else if (idade >= 16 && idade < 18 || idade > 70)
                 {
                     Console.WriteLine("Seu voto é facultativo");
                 }
-                else if (idade >= 18  && idade <= 70)
+                else if (idade >= 18 && idade <= 70)
                 {
                     Console.WriteLine("Você é obrigado a votar");
                 }
@@ -180,7 +200,7 @@ namespace ProjetoConsole
                 else if (segundoNumero > primeiroNumero)
                 {
                     Console.WriteLine($"O maior número é: {segundoNumero}");
-                     
+
                 }
                 else
                 {
@@ -231,20 +251,20 @@ namespace ProjetoConsole
             Console.Write("Digite uma nota:");
             string nota = Console.ReadLine();
 
-            if(int.TryParse(nota, out int numero))
+            if (int.TryParse(nota, out int numero))
 
-            if(numero >= 6)
-            {
+                if (numero >= 6)
+                {
                     Console.WriteLine("Aprovado!");
-            }
-            else if(numero >= 4 && numero <= 5.9)
-            {
+                }
+                else if (numero >= 4 && numero <= 5.9)
+                {
                     Console.WriteLine("Recuperação");
-            }
-            else if(numero < 4)
-            {
+                }
+                else if (numero < 4)
+                {
                     Console.WriteLine("Reprovado..");
-            }
+                }
         }
 
         private static void exercicio2()
@@ -252,24 +272,24 @@ namespace ProjetoConsole
             Console.Write("Digite sua idade: ");
             string input = Console.ReadLine();
 
-            if (int.TryParse(input, out int idade)) ;
+            if (int.TryParse(input, out int idade))
 
-            if(idade >= 0 && idade <= 12)
-            {
-                Console.WriteLine("Você é uma criança.");
-            }
-            else if (idade >= 13  && idade <= 17)
-            {
-                Console.WriteLine("Você é um adolescente.");
-            }
-            else if (idade >= 18 && idade <= 64)
-            {
-                Console.WriteLine("Você é um adulto");
-            }
-            else if (idade >= 65)
-            {
-                Console.WriteLine("Você é um idoso");
-            }
+                if (idade >= 0 && idade <= 12)
+                {
+                    Console.WriteLine("Você é uma criança.");
+                }
+                else if (idade >= 13 && idade <= 17)
+                {
+                    Console.WriteLine("Você é um adolescente.");
+                }
+                else if (idade >= 18 && idade <= 64)
+                {
+                    Console.WriteLine("Você é um adulto");
+                }
+                else if (idade >= 65)
+                {
+                    Console.WriteLine("Você é um idoso");
+                }
         }
 
         private static void exercicio1()

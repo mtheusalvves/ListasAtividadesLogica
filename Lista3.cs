@@ -22,28 +22,32 @@ namespace ProjetoConsole
                 {
 
                     case "1":
-                        
+                        // 1. Faça um programa que receba 3 valores e retorne a soma deles.
                         exercicio1();
                         break;
 
                     case "2":
-                        
+                        // 2. Faça um programa que receba quatro notas e retorne a média.
                         exercicio2();
                         break;
+
                     case "3":
-                        
+                        // 3. Faça um programa que receba um nome enquanto o nome for diferente de João continuar pedindo o nome.
                         exercicio3();
                         break;
+
                     case "4":
-                        
+                        // 4. Faça um programa que retorne a quantidade de números pares existente entre 35 e 98111.
                         exercicio4();
                         break;
+
                     case "5":
-                        
+                        // 5. Faça um programa que some todos os números ímpares de 1 até 5000.
                         exercicio5();
                         break;
+
                     case "6":
-                       
+                        // 6. Faça um programa que receba um número e usando laços de repetição calcule e mostre a tabuada desse número.
                         exercicio6();
                         break;
                 }
